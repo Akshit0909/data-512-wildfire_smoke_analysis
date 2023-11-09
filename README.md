@@ -1,4 +1,3 @@
-[![GitHub license](https://img.shields.io/github/license/akshit0909/data-512-homework_1)](https://github.com/akshit0909/data-512-homework_1/blob/main/LICENSE)
 # DATA 512: Human Centered Data Science (Autumn 2023)
 
 Part 1 - Common Analysis sets the stage for the subsequent assignments. In Part 1 we will conduct a base analysis. All of the students in the class will conduct the same analysis, but with a slightly different data subset.
@@ -9,13 +8,13 @@ The course project will require that we analyze wildfire impacts on a specific c
 
 The common research question that we are to answer is:
 
-**What are the estimated smoke impacts on the assigned city (Tulare) for the last 60 years?**
+**What are the estimated smoke impacts on the assigned city (Minto) for the last 60 years?**
 
 We are to create an annual estimate of wildfire smoke in our assigned city. This estimate is just a number that we can eventually use to build a predictive model. Technically, smoke impact should probably be considered the health, tourism, economic or other social problems that result from the smoke. For this we'll generically call our estimate the wildfire smoke impact. We will consider other potential social and economic impacts during Part 2 of the course project. For now, we need some kind of number to represent an estimate of the smoke our city saw during each annual fire season.
 Why is this an estimate of fire smoke? These are estimates because of a number of problems that are not easy to resolve and simplifications to make this course project reasonable for just a few weeks of work. One example is that actual smoke impact is based on wind direction over a course of several days, the intensity of the fire, and its duration. However, the fire polygon data only gives a year for each fire - it does not provide specific start and end dates for the fire. 
 The smoke estimate should adhere to the following conditions:
 - The estimate only considers the last 60 years of wildland fires (1963-2023).
-- The estimate only considers fires that are within 1250 miles of the assigned city (Tulare).
+- The estimate only considers fires that are within 1250 miles of the assigned city (Minot).
 - An annual fire season will run from May 1st through October 31st.
 
 
@@ -130,7 +129,7 @@ The below sample codes were referenced for the following tasks and have been pro
 #### Overview
 - The adhoc is just to get some lines of code from the work provided by the professor
 - Explore the "Data Files" section for files housing data, including detailed metadata on wildland fire polygons. 
-- Delve into "Visual Insights" for representations showcasing annual acres burned near Tulare, fire distribution relative to Monit, and the correlation between fire smoke estimates and the Air Quality Index (AQI) in Monit. 
+- Delve into "Visual Insights" for representations showcasing annual acres burned near Minot, fire distribution relative to Monit, and the correlation between fire smoke estimates and the Air Quality Index (AQI) in Monit. 
 - Access the "Intermediate Data Storage" directory for a repository of intermediate data files used in the analysis, containing processed data related to smoke estimates, AQI data, and more. Check out "Project Reports" for in-depth descriptions and reflections on the project's visualizations and findings, available in both Word and PDF formats. Find the project's source code, including Jupyter Notebook files covering diverse aspects like analysis, prediction, data acquisition, and AQI per year, in the "Source Code" section. 
 - Refer to the "License Information" file for details on the MIT LICENSE for the akshit0909/data-512-wildfire_smoke_analysis repository. 
 - Explore "README.md Details" for a comprehensive file providing information on reproducing the analysis, including data descriptions, attributions, provenance details, and descriptions of all pertinent resources and documentation, both within and outside the repository, along with hyperlinks to these resources.
