@@ -1,7 +1,5 @@
 # DATA 512: Human Centered Data Science (Autumn 2023)
 
-Part 1 - Common Analysis sets the stage for the subsequent assignments. In Part 1 we will conduct a base analysis. All of the students in the class will conduct the same analysis, but with a slightly different data subset.
-
 ## Common Analysis
 More and more frequently summers in the western US have been characterized by wildfires with smoke billowing across multiple western states. There are many proposed causes for this: climate change, US Forestry policy, growing awareness, just to name a few. Regardless of the cause, the impact of wildland fires is widespread. There is a growing body of work pointing to the negative impacts of smoke on health, tourism, property, and other aspects of society.
 The course project will require that we analyze wildfire impacts on a specific city in the US. The end goal is to be able to inform policy makers, city managers, city councils, or other civic institutions, to make an informed plan for how they could or whether they should make plans to mitigate future impacts from wildfires.
@@ -14,7 +12,7 @@ We are to create an annual estimate of wildfire smoke in our assigned city. This
 Why is this an estimate of fire smoke? These are estimates because of a number of problems that are not easy to resolve and simplifications to make this course project reasonable for just a few weeks of work. One example is that actual smoke impact is based on wind direction over a course of several days, the intensity of the fire, and its duration. However, the fire polygon data only gives a year for each fire - it does not provide specific start and end dates for the fire. 
 The smoke estimate should adhere to the following conditions:
 - The estimate only considers the last 60 years of wildland fires (1963-2023).
-- The estimate only considers fires that are within 1250 miles of the assigned city (Minot).
+- The estimate only considers fires that are within 1250 miles of the assigned city (Minot - Ward County).
 - An annual fire season will run from May 1st through October 31st.
 
 
@@ -42,7 +40,6 @@ The below sample codes were referenced for the following tasks and have been pro
 
 #### Repository tree
 ```
-
 .
 ├── .git
 │   ├── hooks
@@ -133,7 +130,6 @@ The below sample codes were referenced for the following tasks and have been pro
 - Access the "Intermediate Data Storage" directory for a repository of intermediate data files used in the analysis, containing processed data related to smoke estimates, AQI data, and more. Check out "Project Reports" for in-depth descriptions and reflections on the project's visualizations and findings, available in both Word and PDF formats. Find the project's source code, including Jupyter Notebook files covering diverse aspects like analysis, prediction, data acquisition, and AQI per year, in the "Source Code" section. 
 - Refer to the "License Information" file for details on the MIT LICENSE for the akshit0909/data-512-wildfire_smoke_analysis repository. 
 - Explore "README.md Details" for a comprehensive file providing information on reproducing the analysis, including data descriptions, attributions, provenance details, and descriptions of all pertinent resources and documentation, both within and outside the repository, along with hyperlinks to these resources.
-
 
 
 ## Special Considerations
