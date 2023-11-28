@@ -6,7 +6,7 @@ The course project will require that we analyze wildfire impacts on a specific c
 
 The common research question that we are to answer is:
 
-**What are the estimated smoke impacts on the assigned city (Minto) for the last 60 years?**
+**What are the estimated smoke impacts on the assigned city (Minot) for the last 60 years?**
 
 We are to create an annual estimate of wildfire smoke in our assigned city. This estimate is just a number that we can eventually use to build a predictive model. Technically, smoke impact should probably be considered the health, tourism, economic or other social problems that result from the smoke. For this we'll generically call our estimate the wildfire smoke impact. We will consider other potential social and economic impacts during Part 2 of the course project. For now, we need some kind of number to represent an estimate of the smoke our city saw during each annual fire season.
 Why is this an estimate of fire smoke? These are estimates because of a number of problems that are not easy to resolve and simplifications to make this course project reasonable for just a few weeks of work. One example is that actual smoke impact is based on wind direction over a course of several days, the intensity of the fire, and its duration. However, the fire polygon data only gives a year for each fire - it does not provide specific start and end dates for the fire. 
